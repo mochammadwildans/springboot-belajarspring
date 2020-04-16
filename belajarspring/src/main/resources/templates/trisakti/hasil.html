@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Hasil Pendaftaran Online Trisakti</h1>
+	<h3>Informasi Pribadi</h3>
+	<hr>
+	<table>
+		<tr>
+			<td>Nama Lengkap :</td>
+			<td><a th:text="${hasil_nama_lengkap}"></a></td>
+		</tr>
+		<tr>
+			<td>Tempat Lahir :</td>
+			<td><a th:text="${hasil_tempat_lahir}"></a></td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir :</td>
+			<td><a th:text="${hasil_tanggal_lahir}"></a></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin :</td>
+			<td><a th:text="${hasil_jenis_kelamin}"></a></td>
+		</tr>
+		<tr>
+			<td>Agama :</td>
+			<td><a th:text="${hasil_agama}"></a></td>
+		</tr>
+		<tr>
+			<td>Telp :</td>
+			<td><a th:text="${hasil_telp}"></a></td>
+		</tr>	
+		<tr>
+			<td>HP :</td>
+			<td><a th:text="${hasil_hp}"></a></td>
+		</tr>
+		<tr>
+			<td>Kewarganegaraan :</td>
+			<td><a th:text="${hasil_kewarganegaraan}"></a></td>
+		</tr>
+		<tr>
+			<td>NIK :</td>
+			<td><a th:text="${hasil_nik}"></a></td>
+		</tr>
+		<tr>
+			<td>Golongan darah :</td>
+			<td><a th:text="${hasil_golongan_darah}"></a></td>
+		</tr>
+		<tr>
+			<td>Tinggal :</td>
+			<td><a th:text="${hasil_tinggal}"></a></td>
+		</tr>
+		<tr>
+			<td>Anak ke : </td>
+			<td><a th:text="${hasil_anak_ke}"></a> Dari <a th:text="${hasil_dari}"></a> Bersaudara</td>
+		</tr>
+		<tr>
+			<td>Status Nikah :</td>
+			<td><a th:text="${hasil_status_nikah}"></a></td>
+		</tr>
+		<tr>
+			<td>E-mail :</td>
+			<td><a th:text="${hasil_email}"></a></td>
+		</tr>
+		<tr>
+			<td>Kode Verifikasi E-mail :</td>
+			<td><a th:text="${hasil_kode_verifikasi_email}"></a></td>
+		</tr>
+		<tr>
+			<td>Alamat :</td>
+			<td><a th:text="${hasil_alamat}"></a></td>
+		</tr>
+		<tr>
+			<td>RT :</td>
+			<td><a th:text="${hasil_rt}"></a></td>
+		</tr>
+		<tr>
+			<td>RW :</td>
+			<td><a th:text="${hasil_rw}"></a></td>
+		</tr>
+		<tr>
+			<td>Provinsi :</td>
+			<td><a th:text="${hasil_provinsi}"></a></td>
+		</tr>
+		<tr>
+			<td>Kab/Kota :</td>
+			<td><a th:text="${hasil_kab_kota}"></a></td>
+		</tr>
+		<tr>
+			<td>Kecamatan :</td>
+			<td><a th:text="${hasil_kecamatan}"></a></td>
+		</tr>
+		<tr>
+			<td>Kel/Desa :</td>
+			<td><a th:text="${hasil_kel_desa}"></a></td>
+		</tr>
+	</table>
+	<h3>Informasi Sekolah</h3>
+	<hr>
+	<table>
+		<tr>
+			<td>Nama Sekolah :</td>
+			<td><a th:text="${hasil_nama_sekolah}"></a></td>
+		</tr>
+		<tr>
+			<td>Tahun Lulus :</td>
+			<td><a th:text="${hasil_tahun_lulus}"></a></td>
+		</tr>
+		<tr>
+			<td>Bidang Peminatan :</td>
+			<td><a th:text="${hasil_bidang_peminatan}"></a></td>
+		</tr>
+		<tr>
+			<td>Nilai Rapot :</td>
+			<td><a th:text="${hasil_nilai_rapot}"></a></td>
+		</tr>			
+	</table>
+	<h3>Khusus D-4 Alih Program (Reguler dan Eksekutif)</h3>
+	<hr>
+	<table>
+		<tr>
+			<td>Alumni :</td>
+			<td><a th:text="${hasil_alumni}"></a></td>
+		</tr>
+		<tr>
+			<td>NIM Asal :</td>
+			<td><a th:text="${hasil_nim_asal}"></a></td>
+		</tr>
+		<tr>
+			<td>Tahun Lulus</td>
+			<td><a th:text="${hasil_tahun_lulus_2}"></a></td>
+		</tr>
+		<tr>
+			<td>Perguruan Tinggi Asal</td>
+			<td><a th:text="${hasil_perguruan_tinggi_asal}"></a></td>
+		</tr>
+		<tr>
+			<td>Jurusan/Jenjang :</td>
+			<td><a th:text="${hasil_jurusan_jenjang}"></a></td>
+		</tr>		
+	</table>
+	<h3>Informasi Keluarga</h3>
+	<hr>
+	<table>
+		<tr>
+			<td>Nama Ayah :</td>
+			<td><a th:text="${hasil_nama_ayah}"></a></td>
+		</tr>
+		<tr>
+			<td>Keadaan Ayah :</td>
+			<td><a th:text="${hasil_keadaan_ayah}"></a></td>
+		</tr>
+		<tr>
+			<td>Tempat Lahir Ayah :</td>
+			<td><a th:text="${hasil_tempat_lahir_ayah}"></a></td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir Ayah :</td>
+			<td><a th:text="${hasil_tanggal_lahir_ibu}"></a></td>
+		</tr>
+		<tr>
+			<td>Nama Ibu :</td>
+			<td><a th:text="${hasil_nama_ibu}"></a></td>
+		</tr>
+		<tr>
+			<td>Keadaan Ibu :</td>
+			<td><a th:text="${hasil_keadaan_ibu}"></a></td>
+		</tr>
+		<tr>
+			<td>Tempat Lahir Ibu :</td>
+			<td><a th:text="${hasil_tempat_lahir_ibu}"></a></td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir Ibu :</td>
+			<td><a th:text="${hasil_tanggal_lahir_ibu}"></a></td>
+		</tr>
+		<tr>
+			<td>Telp :</td>
+			<td><a th:text="${hasil_telp_2}"></a></td>
+		</tr>
+		<tr>
+			<td>HP. Orang Tua :</td>
+			<td><a th:text="${hasil_hp_orang_tua}"></a></td>
+		</tr>
+		<tr>
+			<td>E-mail Orang Tua :</td>
+			<td><a th:text="${hasil_email_orang_tua}"></a></td>
+		</tr>
+		<tr>
+			<td>Pendidikan Orang Tua :</td>
+			<td><a th:text="${hasil_pendidikan_orang_tua}"></a></td>
+		</tr>
+		<tr>
+			<td>Pekerjaan Orang Tua :</td>
+			<td><a th:text="${hasil_pekerjaan_orang_tua}"></a></td>
+		</tr>
+		<tr>
+			<td>Penghasilan Orang Tua :</td>
+			<td><a th:text="${hasil_penghasilan_orang_tua}"></a></td>
+		</tr>
+		<tr>
+			<td>Tanggungan :</td>
+			<td><a th:text="${hasil_tanggungan}"></a></td>
+		</tr>
+		<tr>
+			<td>Alamat Orang Tua :</td>
+			<td><a th:text="${hasil_alamat_orang_tua}"></a></td>
+		</tr>
+		<tr>
+			<td>RT :</td>
+			<td><a th:text="${hasil_rt_2}"></a></td>
+		</tr>
+		<tr>
+			<td>RW :</td>
+			<td><a th:text="${hasil_rw_2}"></a></td>
+		</tr>
+		<tr>
+			<td>Kab/Kota :</td>
+			<td><a th:text="${hasil_kab_kota_2}"></a></td>
+		</tr>
+		<tr>
+			<td>Kecamatan :</td>
+			<td><a th:text="${hasil_kecamatan_2}"></a></td>
+		</tr>
+		</tr>
+		<tr>
+			<td>Kel/Desa :</td>
+			<td><a th:text="${hasil_kel_desa_2}"></a></td>
+		</tr>
+		<tr>
+			<td>Kode Pos :</td>
+			<td><a th:text="${hasil_kode_pos}"></a></td>
+		</tr>	
+	</table>
+	<h3>Lain-lain</h3>
+	<hr>
+	<table>
+		<tr>
+			<td>Informasi STPT :</td>
+			<td><a th:text="${hasil_informasi_sptp}"></a></td>
+		</tr>
+		<tr>
+			<td>STP Trisakti Prioritas :</td>
+			<td><a th:text="${hasil_stp_trisakti_prioritas}"></a></td>
+		</tr>
+		<tr>
+			<td>Ukuran Almamater :</td>
+			<td><a th:text="${hasil_ukuran_almamater}"></a></td>
+		</tr>
+		<tr>
+			<td>Ukuran Sepatu :</td>
+			<td><a th:text="${hasil_ukuran_sepatu}"></a></td>
+		</tr>		
+	</table>
+</body>
+</html>

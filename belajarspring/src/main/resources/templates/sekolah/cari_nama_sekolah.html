@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+		<h1> Cari Nama Sekolah </h1>
+		<form action="hasil_cari_nama" method="get">
+		Nama : <input type="text" name="cari_nama">
+		<button type="submit"> CARI </button>
+		</form>
+		<table>
+			<tr>
+				<th>Nomor Sekolah</th>
+				<th>Nama Sekolah</th>
+			</tr>
+			<tr th:each="sekolahModel:${sekolahModelList}">
+				<td><a th:text="${sekolahModel.nomorSekolah}"></a></td>
+				<td><a th:text="${sekolahModel.namaSekolah}"></a></td>
+			</tr>
+		</table>
+
+</body>
+</html>

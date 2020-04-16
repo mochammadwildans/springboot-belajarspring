@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Banyak Dosen Pake Order Nama Nih</h1>
+	<table>
+		<tr>
+			<th>Nama Dosen</th>
+			<th>Usia Dosen</th>
+		</tr>
+		<tr th:each="dosenModel:${dosenModelList}">
+			<td><a th:text="${dosenModel.namaDosen}"></a></td>
+			<td><a th:text="${dosenModel.usiaDosen}"></a></td>
+		</tr>
+	</table>
+</body>
+</html>

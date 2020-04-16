@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Cari Nama Dosen</h1>
+	
+	<form action="proses_cari_nama" method=post>
+	Nama : <input type="text" name="katakunci_nama">
+	<button type="submit">Cari Atuh</button>
+	</form>
+	<br/><br/>
+	<table>
+		<tr>
+			<th>Nama Dosen</th>
+			<th>Usia</th>
+		</tr>
+		<tr th:each="dosenModel:${dosenModelList}">
+			<td><a th:text="${dosenModel.namaDosen}"></a></td>
+			<td><a th:text="${dosenModel.usiaDosen}"></a></td>
+		</tr>
+	</table>
+</body>
+</html>

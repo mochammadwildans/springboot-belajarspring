@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Pendaftaran Online</h1><br/>
+	<form action="trisaktihasil" method="post">
+		<h3>Informasi Pribadi</h3>
+		<hr>
+		<table>
+			<tr>
+				<td>Nama Lengkap</td>
+				<td><input type="text" name="daftar_nama_lengkap"></td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir</td>
+				<td><input type="text" name="daftar_tempat_lahir"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td><input type="date" name="daftar_tanggal_Lahir"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td><select name="daftar_jenis_kelamin">
+						<option>Pria</option>
+						<option>Wanita</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td><select name="daftar_agama">
+						<option>--- PILIHAN ---</option>
+						<option>Islam</option>
+						<option>Kristen</option>
+						<option>Katolik</option>
+						<option>Hindu</option>
+						<option>Budha</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Telp (dgn kode area)</td>
+				<td><input type="text" name="daftar_telp"></td>
+			</tr>
+			<tr>
+				<td>HP</td>
+				<td><input type="text" name="daftar_hp"></td>
+			</tr>
+			<tr>
+				<td>Kewarganegaraan</td>
+				<td><select name="daftar_kewarganegaraan">
+					<option>--- PILIHAN ---</option>
+						<option>INDONESIA</option>
+						<option>SINGAPURA</option>
+						<option>MALAYSIA</option>
+						<option>THAILAND</option>
+						<option>JEPANG</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>NIK</td>
+				<td><input type="text" name="daftar_nik"></td>
+			</tr>
+			<tr>
+				<td>Golongan Darah</td>
+				<td><select name="daftar_golongan_darah">
+						<option>--- PILIHAN ---</option>
+						<option>A</option>
+						<option>B</option>
+						<option>O</option>
+						<option>AB</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Tinggal di Jakarta</td>
+				<td><select name="daftar_tinggal">
+						<option>--- PILIHAN ---</option>
+						<option>INDEKOST</option>
+						<option>SENDIRI<option>
+						<option>KELUARGA<option>
+						<option>ASRAMA</option>
+						<option>LAINNYA</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Anak ke</td>
+				<td><input type="text" name="daftar_anak_ke"> dari <input type="text" name="daftar_dari"> bersaudara</td>
+			</tr>
+			<tr>
+				<td>Status Nikah</td>
+				<td><select name="daftar_status_nikah">
+						<option>--- PILIHAN ---</option>
+						<option>Belum Menikah</option>
+						<option>Duda</option>
+						<option>Janda</option>
+						<option>Menikah</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td><input type="text" name="daftar_email"></td>
+			</tr>
+			<tr>
+				<td>Kode Verifikasi E-mail</td>
+				<td><input type="text" name="daftar_kode_verifikasi_email"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td><input type="text" name="daftar_alamat"></td>
+			</tr>
+			<tr>
+				<td>RT/RW</td>
+				<td><input type="text" name="daftar_rt"> / <input type="text" name="daftar_rw"></td>
+			</tr>
+			<tr>
+				<td>Provinsi</td>
+				<td><select name="daftar_provinsi">
+						<option>--- PILIHAN ---</option>
+						<option>DKI Jakarta</option>
+						<option>Jawa Barat</option>
+						<option>Jawa Timur</option>
+						<option>Jawa tengah</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kab/Kota</td>
+				<td><select name="daftar_kab_kota">
+						<option>--- PILIHAN ---</option>
+						<option>Jakarta</option>
+						<option>Yogyakarta</option>
+						<option>Bandung</option>
+						<option>Surabaya</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kecamatan</td>
+				<td><select name="daftar_kecamatan">
+						<option>--- PILIHAN ---</option>
+						<option>Setia Budi</option>
+						<option>Palmerah</option>
+						<option>Indihiang</option>
+						<option>Tawang</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kel./Desa</td>
+				<td><input type="text" name="daftar_kel_desa"></td>
+			</tr>
+			</table>
+			<h3>Informasi Sekolah</h3>
+			<hr>
+			<table>
+			<tr>
+				<td>Nama Sekolah</td>
+				<td><input type="text" name="daftar_nama_sekolah"></td>
+			</tr>
+			<tr>
+				<td>Tahun Lulus</td>
+				<td><select name="daftar_tahun_lulus">
+						<option>--- PILIHAN ---</option>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Bidang Peminatan</td>
+				<td><select name="daftar_bidang_peminatan">
+						<option>--- PILIHAN ---</option>
+						<option>SMA-IPA</option>
+						<option>SMA-IPS</option>
+						<option>SMA-BAHASA</option>
+						<option>LAIN-LAIN</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Nilai Rata-rata Rapot</td>
+				<td><input type="text" name="daftar_nilai_rapot"></td>
+			</tr>
+			</table>
+			<h3>Khusus D-4 Alih Program (Reguler dan Eksekutif)</h3>
+			<hr>
+			<table>
+			<tr>
+				<td>Alumni dari STP Trisakti?</td>
+				<td><input type="checkbox" name="daftar_alumni" value="Ya"></td>
+			</tr>
+			<tr>
+				<td>NIM Asal</td>
+				<td><input type="text" name="daftar_nim_asal"></td>
+			</tr>
+			<tr>
+				<td>Tahun Lulus</td>
+				<td><select name="daftar_tahun_lulus_2">
+						<option>--- PILIHAN ---</option>
+						<option>2019</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Perguruan Tinggi Asal</td>
+				<td><input type="text" name="daftar_perguruan_tinggi_asal"></td>
+			</tr>
+			<tr>
+				<td>Jurusan/jenjang</td>
+				<td><input type="text" name="daftar_jurusan_jenjang"></td>
+			</tr>
+			</table>
+		<h3>Informasi Keluarga</h3>
+		<hr>
+		<table>
+			<tr>
+				<td>Nama Ayah</td>
+				<td><input type="text" name="daftar_nama_ayah"></td>
+			</tr>
+			<tr>
+				<td>Keadaan Ayah</td>
+				<td><select name="daftar_keadaan_ayah">
+						<option>--- PILIHAN ---</option>
+						<option>Masih Hidup</option>
+						<option>Meninggal</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir Ayah</td>
+				<td><input type="text" name="daftar_tempat_lahir_ayah"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir Ayah</td>
+				<td><input type="date" name="daftar_tanggal_lahir_ayah"></td>
+			</tr>
+			<tr>
+				<td>Nama Ibu</td>
+				<td><input type="text" name="daftar_nama_ibu"></td>
+			</tr>
+			<tr>
+				<td>Keadaan Ibu</td>
+				<td><select name="daftar_keadaan_ibu">
+						<option>--- PILIHAN ---</option>
+						<option>Masih Hidup</option>
+						<option>Meninggal</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir Ibu</td>
+				<td><input type="text" name="daftar_tempat_lahir_ibu"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir Ibu</td>
+				<td><input type="date" name="daftar_tanggal_lahir_ibu"></td>
+			</tr>
+			<tr>
+				<td>Telp (dgn kode area)</td>
+				<td><input type="text" name="daftar_telp_2"></td>
+			</tr>
+			<tr>
+				<td>HP Orang Tua</td>
+				<td><input type="text" name="daftar_hp_orang_tua"></td>
+			</tr>
+			<tr>
+				<td>E-mail Orang Tua</td>
+				<td><input type="text" name="daftar_email_orang_tua"></td>
+			</tr>
+			<tr>
+				<td>Pendidikan Orang Tua</td>
+				<td><select name="daftar_pendidikan_orang_tua">
+						<option>--- PILIHAN ---</option>
+						<option>S-3</option>
+						<option>S-2</option>
+						<option>S-1</option>
+						<option>PROFESI</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Pekerjaan Orang Tua</td>
+				<td><select name="daftar_pekerjaan_orang_tua">
+						<option>--- PILIHAN ---</option>
+						<option>PEGAWAI NEGERI</option>
+						<option>PEGAWAI SWASTA</option>
+						<option>USAHA SENDIRI</option>
+						<option>LAINNYA</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Penghasilan Orang Tua</td>
+				<td><select name="daftar_penghasilan_orang_tua">
+						<option>--- PILIHAN ---</option>
+						<option>Rp. 1.000.0000-Rp.2.999.999</option>
+						<option>Rp. 3.000.0000-Rp.4.999.999</option>
+						<option>Rp. 5.000.0000-Rp.7.999.999</option>
+						<option>DI ATAS Rp. 8.000.0000</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Tanggungan Orang Tua</td>
+				<td><input type="text" name="daftar_tanggungan"> orang</td>
+			</tr>
+			<tr>
+				<td>Alamat Orang Tua</td>
+				<td><input type="text" name="daftar_alamat_orang_tua"></td>
+			</tr>
+			<tr>
+				<td>RT/RW</td>
+				<td><input type="text" name="daftar_rt_2"> / <input type="text" name="daftar_rw_2"></td>
+			</tr>
+			<tr>
+				<td>Provinsi</td>
+				<td><select name="daftar_provinsi_2">
+						<option>--- PILIHAN ---</option>
+						<option>DKI Jakarta</option>
+						<option>Jawa Barat</option>
+						<option>Jawa Timur</option>
+						<option>Jawa tengah</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kab/Kota</td>
+				<td><select name="daftar_kab_kota_2">
+						<option>--- PILIHAN ---</option>
+						<option>Jakarta</option>
+						<option>Yogyakarta</option>
+						<option>Bandung</option>
+						<option>Surabaya</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kecamatan</td>
+				<td><select name="daftar_kecamatan_2">
+						<option>--- PILIHAN ---</option>
+						<option>Setia Budi</option>
+						<option>Palmerah</option>
+						<option>Indihiang</option>
+						<option>Tawang</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kel./Desa</td>
+				<td><input type="text" name="daftar_kel_desa_2"></td>
+			</tr>
+			<tr>
+				<td>Kode Pos</td>
+				<td><input type="text" name="daftar_kode_pos"></td>
+			</tr>
+		</table>
+		<h3>Lain-Lain</h3>
+		<hr>
+		<table>
+			<tr>
+				<td>Informasi STPT</td>
+				<td><select name="daftar_informasi_sptp">
+						<option>--- PILIHAN ---</option>
+						<option>Koran</option>
+						<option>Teman</option>
+						<option>Brosur</option>
+						<option>Website</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>STP Trisakti Prioritas</td>
+				<td><select name="daftar_stp_trisakti_prioritas">
+						<option>--- PILIHAN ---</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Ukuran jaket Almamater</td>
+				<td><select name="daftar_ukuran_almamater">
+						<option>--- PILIHAN ---</option>
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+						<option>XL</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Ukuran Sepatu</td>
+				<td><input type="text" name="daftar_ukuran_sepatu"></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Submit</button></td>
+				<td><button type="reset">Batal</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

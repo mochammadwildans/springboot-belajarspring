@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Banyak Data Nih</h1>
+	<table border="1">
+		<tr>
+			<th>kode pakaian</th>
+			<th>nama Pakaian</th>
+			<th>Harga Pakaian</th>
+			<th>Ukuran</th>
+		</tr>
+		<tr th:each="pakaianModel:${pakaianModelList}">
+			<td><a th:text="${pakaianModel.kodePakaian}"></a></td>
+			<td><a th:text="${pakaianModel.namaPakaian}"></a></td>
+			<td><a th:text="${pakaianModel.hargaPakaian}"></a></td>
+			<td><a th:text="${pakaianModel.ukuran}"></a></td>
+			
+	</table>
+</body>
+</html>

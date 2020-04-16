@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Pendaftaran Pegawai Negeri Sipil</h1>
+	<br/>
+	<form action="menuhasil" method="post">
+		Nama <input type="text" name="daftar_nama"/><br/><br/>
+		Tanggal Lahir <input type="date" name="daftar_tanggal"/><br/><br/>
+		Kota <select name="daftar_kota">
+				<option>Jakarta</option>
+				<option>Bandung</option>
+				<option>Surabaya</option>
+				<option>Yogyakarta</option>
+			</select><br/><br/>
+		Jenis Kelamin <input type="radio" name="daftar_jk" value="Pria"/> Pria
+					 <input type="radio" name="daftar_jk" value="Wanita"/> Wanita<br/><br/>
+		Alamat <textarea rows="5" cols="20" name="daftar_alamat"></textarea><br/><br/>
+		
+		<button type="submit">Kirim</button>
+		<button type="reset">Hapus</button>
+	</form>
+</body>
+</html>
